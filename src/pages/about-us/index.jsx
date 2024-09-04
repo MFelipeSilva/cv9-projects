@@ -2,7 +2,7 @@ import { PrimaryButton } from "../../components/Button";
 
 import office from "../../assets/office.png";
 
-import "./style.css";
+import "./style.scss";
 
 function AboutUs() {
   return (

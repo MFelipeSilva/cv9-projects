@@ -1,6 +1,6 @@
 import { PrimaryButton } from "../../components/Button";
 
-import "./style.css";
+import "./style.scss";
 
 function Home() {
   return (

@@ -1,6 +1,6 @@
 import { team } from "../../utils/team";
 
-import "./style.css";
+import "./style.scss";
 
 function Team() {
   return (

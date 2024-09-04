@@ -2,7 +2,7 @@ import image_contact from "../../assets/image-contact.png";
 
 import { PrimaryButton } from "../../components/Button";
 
-import "./style.css";
+import "./style.scss";
 
 function Contact() {
   return (

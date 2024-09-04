@@ -2,7 +2,7 @@ import { FacebookIcon, InstagramIcon } from "../Icons";
 
 import logo from "../../assets/logo.png";
 
-import "./style.css";
+import "./style.scss";
 
 export const Footer = () => {
   return (

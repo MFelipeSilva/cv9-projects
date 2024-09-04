@@ -7,7 +7,7 @@ import Services from "./pages/services";
 import Team from "./pages/team";
 import Contact from "./pages/contact";
 
-import "./style.css";
+import "./style.scss";
 
 function App() {
   return (

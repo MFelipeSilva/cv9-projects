@@ -1,6 +1,6 @@
 import { ArrowRightIcon } from "../Icons";
 
-import "./style.css";
+import "./style.scss";
 
 export const PrimaryButton = ({ children, size, icon }) => {
   return (

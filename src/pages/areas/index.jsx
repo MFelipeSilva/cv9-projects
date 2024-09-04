@@ -2,7 +2,7 @@ import { areas } from "../../utils/areas";
 
 import { PrimaryButton } from "../../components/Button";
 
-import "./style.css";
+import "./style.scss";
 
 function Areas() {
   return (
