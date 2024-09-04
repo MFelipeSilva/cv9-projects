@@ -9,7 +9,7 @@ import { services } from "../../utils/services";
 
 import { ArrowRightIcon } from "../../components/Icons";
 
-import "./style.css";
+import "./style.scss";
 
 function Services() {
   const settings = {
