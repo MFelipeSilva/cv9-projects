@@ -1,0 +1,114 @@
+.footer-container {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  padding: 7em 0 5em 0;
+  width: 100%;
+  height: 100%;
+  background-color: var(--primary-color);
+
+  & > .content {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    max-width: 1051.59px;
+    min-width: 1051.59px;
+
+    & > .top-content {
+      display: flex;
+      flex-direction: row;
+      align-items: start;
+      justify-content: space-between;
+      gap: 30px;
+      padding-bottom: 2.5em;
+      border-bottom: 2px solid var(--secondary-color);
+
+      & > .image-container {
+        width: 35%;
+      }
+
+      & > .text-container {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 30px;
+
+        & > p {
+          width: 60%;
+          color: var(--secondary-color);
+        }
+
+        & > .text-adress {
+          display: flex;
+          flex-direction: column;
+          width: 40%;
+          gap: 15px;
+
+          & > p {
+            color: var(--secondary-color);
+          }
+
+          & > .icons-container {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+
+            & > .icon {
+              display: flex;
+              align-items: center;
+              justify-content: center;
+              width: 45px;
+              height: 45px;
+              cursor: pointer;
+              border-radius: 50%;
+              text-decoration: none;
+              border: 2px solid var(--secondary-color);
+
+              & > svg {
+                color: var(--secondary-color);
+              }
+            }
+          }
+        }
+      }
+    }
+
+    & > .bottom-content {
+      padding-top: 2.5em;
+
+      & > p {
+        color: var(--secondary-color);
+      }
+    }
+
+    @media (max-width: 1280px) {
+      min-width: 0;
+      width: 90vw;
+    }
+
+    @media (max-width: 768px) {
+      & > .top-content {
+        align-items: center;
+        flex-direction: column;
+
+        & > .image-container {
+          width: auto;
+        }
+
+        & > .text-container {
+          text-align: center;
+          flex-direction: column;
+
+          & > p {
+            width: 100%;
+          }
+
+          & > .text-adress {
+            width: 100%;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
